@@ -1,58 +1,33 @@
 # LUAPHES
 
-### Product Manager → AI-native Builder
+### PRODUCT MANAGER × AI BUILDER
 
-**10+ years of product judgment. Now I build and ship the things I believe should exist.**
+**做了十多年产品，现在终于可以不只写 PRD 了。**
 
-I break down complex user journeys, find the experience gaps that matter, and turn them into simple, interesting products — then learn from data and real users, iterate, and ship again.
+在复杂场景里发现体验断点，设计有趣的解法，再用 AI 把它 **Build、Ship**，并从真实用户和数据里继续迭代。
 
-`OBSERVE → FRAME → DESIGN → BUILD → SHIP → LEARN → REPEAT`
+`PRODUCT JUDGMENT × AI BUILDING × SHIP & ITERATE`
 
----
+<img src="./assets/neon-line.svg" width="100%" alt="neon divider" />
 
-## Selected work
+> **Leave some scratches.**  
+> 想在这个世界上，留下一些自己的爪痕。
 
-### 01 — Attention
-**Stop watching your agent work.**
+## SELECTED BUILDS
 
-[dsh-web-attention-badge](https://github.com/Luaphes/dsh-web-attention-badge) — An attention layer for long-running AI sessions, so the interface tells you when it actually needs you.
+### 01 / ATTENTION
+**Stop watching your agent work.**  
+[dsh-web-attention-badge](https://github.com/Luaphes/dsh-web-attention-badge) — 让长任务在真正需要你时再来打扰你。
 
-### 02 — Discovery
-**An ecosystem can have hundreds of plugins and still make discovery painful.**
+### 02 / DISCOVERY
+**Hundreds of plugins. Finding the useful ones shouldn't be hard.**  
+[dsh-plugins-market](https://github.com/Luaphes/dsh-plugins-market) — 过滤噪音、验证兼容性，把“能发现”变成“敢安装”。
 
-[dsh-plugins-market](https://github.com/Luaphes/dsh-plugins-market) — A plugin discovery and installation experience that filters noise, surfaces useful projects, and validates compatibility before install.
-
-### 03 — Understanding
-**Code should not feel like a foreign language just because you are not an engineer.**
-
-[Code-To-Chinese](https://github.com/Luaphes/Code-To-Chinese) — An AI agent tool that translates code into plain, understandable Chinese.
-
-### 04 — Play
-**Sometimes the best way to understand an idea is to make it playable.**
-
-[paiwawa](https://github.com/Luaphes/paiwawa) — A small game built around capturing the sound and experience of a traditional bamboo toy.
-
-### 05 — Environment
-**AI tools should adapt to the way I work, not the other way around.**
-
-[codex-profile-runtime](https://github.com/Luaphes/codex-profile-runtime) — An experiment in isolating identities, environments, and workflows for Codex.
+### 03 / UNDERSTANDING
+**Code doesn't have to speak like code.**  
+[Code-To-Chinese](https://github.com/Luaphes/Code-To-Chinese) — 把代码翻译成中文大白话，让非工程师也能真正看懂它。
 
 ---
 
-## How I think about products
-
-I am not trying to become the engineer who writes the most code.
-
-I want to combine **product judgment, user empathy, business understanding, and AI-assisted building** into one loop — so an idea does not have to stop at a PRD.
-
-I care about the small breaks in an experience: the moment a user hesitates, gets confused, loses attention, gives up, or simply thinks *“why does this have to be this way?”*
-
-That is usually where I want to start building.
-
----
-
-## Why I build
-
-> **I want to leave a few scratches on this world.**
-
-Things I noticed. Things I cared about. Things that did not exist before — and now do.
+**More experiments**  
+[paiwawa](https://github.com/Luaphes/paiwawa) · [codex-profile-runtime](https://github.com/Luaphes/codex-profile-runtime) · [awesome-deepseek-harness](https://github.com/Luaphes/awesome-deepseek-harness)
