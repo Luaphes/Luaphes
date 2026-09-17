@@ -15,8 +15,6 @@
 
 <p align="center"><sub>IDEAS → BUILDS → IMPACT</sub></p>
 
-<img src="./assets/neon-line.svg" width="100%" alt="neon divider" />
-
 <br>
 
 <img src="./assets/scratch-banner.svg" width="100%" alt="Leave some scratches — 想在这个世界上，留下一些自己的爪痕。" />
