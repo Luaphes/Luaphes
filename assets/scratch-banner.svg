@@ -9,21 +9,40 @@
       <stop offset="0.55" stop-color="#7A5CFF" stop-opacity="0.7"/>
       <stop offset="1" stop-color="#FF62C7" stop-opacity="0.8"/>
     </linearGradient>
+    <linearGradient id="scratch" x1="824" y1="76" x2="912" y2="24" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#20D7FF"/>
+      <stop offset="0.52" stop-color="#7A5CFF"/>
+      <stop offset="1" stop-color="#FF62C7"/>
+    </linearGradient>
     <filter id="soft" x="-20%" y="-200%" width="140%" height="500%">
       <feGaussianBlur stdDeviation="5"/>
     </filter>
+    <filter id="scratchGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="2.6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
+
   <rect x="1" y="1" width="958" height="178" rx="18" fill="url(#bg)" stroke="#2A3445"/>
+
   <circle cx="842" cy="48" r="34" fill="#7A5CFF" fill-opacity="0.07" stroke="#7A5CFF" stroke-opacity="0.12"/>
+
+  <!-- subtle claw marks: a trace, not an icon -->
+  <g opacity="0.78" filter="url(#scratchGlow)" stroke="url(#scratch)" stroke-linecap="round">
+    <path d="M838 73C851 59 860 45 869 29" stroke-width="2.8"/>
+    <path d="M860 79C874 62 883 46 891 25" stroke-width="3.2"/>
+    <path d="M883 75C895 58 902 43 907 27" stroke-width="2.6"/>
+  </g>
+
   <path d="M250 158C368 149 442 159 524 151C615 142 661 153 740 145C814 138 860 145 928 137" stroke="url(#horizon)" stroke-width="2"/>
   <path d="M250 158C368 149 442 159 524 151C615 142 661 153 740 145C814 138 860 145 928 137" stroke="url(#horizon)" stroke-width="10" opacity="0.18" filter="url(#soft)"/>
+
   <text x="62" y="72" font-family="Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="28" font-style="italic" font-weight="600" fill="#F2F5FA">Leave some scratches.</text>
   <text x="62" y="110" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="20" fill="#B8C2D3">想在这个世界上，留下一些自己的爪痕。</text>
+
   <text x="738" y="112" font-family="Inter, ui-sans-serif, sans-serif" font-size="10" letter-spacing="2.2" fill="#7F8AA1">SMALL BUILDS</text>
   <text x="738" y="130" font-family="Inter, ui-sans-serif, sans-serif" font-size="10" letter-spacing="2.2" fill="#7F8AA1">BRIGHTER TOMORROW</text>
-  <!-- paw -->
-  <ellipse cx="887" cy="72" rx="11" ry="9" transform="rotate(-18 887 72)" fill="#C7B7FF" fill-opacity="0.55"/>
-  <ellipse cx="904" cy="62" rx="7" ry="9" transform="rotate(12 904 62)" fill="#C7B7FF" fill-opacity="0.55"/>
-  <ellipse cx="873" cy="60" rx="7" ry="9" transform="rotate(-20 873 60)" fill="#C7B7FF" fill-opacity="0.55"/>
-  <ellipse cx="888" cy="48" rx="7" ry="9" fill="#C7B7FF" fill-opacity="0.55"/>
 </svg>
