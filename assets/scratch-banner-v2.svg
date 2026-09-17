@@ -1,0 +1,88 @@
+<svg width="960" height="180" viewBox="0 0 960 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="960" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#121126"/>
+    </linearGradient>
+
+    <radialGradient id="rightGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(770 90) rotate(0) scale(240 120)">
+      <stop stop-color="#1D4ED8" stop-opacity="0.12"/>
+      <stop offset="0.45" stop-color="#8B5CF6" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#EC4899" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="scratch1" x1="676" y1="133" x2="757" y2="44" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0.98"/>
+    </linearGradient>
+
+    <linearGradient id="scratch2" x1="715" y1="138" x2="805" y2="38" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0.98"/>
+    </linearGradient>
+
+    <linearGradient id="scratch3" x1="756" y1="132" x2="849" y2="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#EC4899" stop-opacity="0.98"/>
+    </linearGradient>
+
+    <linearGradient id="pawFill" x1="786" y1="38" x2="865" y2="108" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#93C5FD" stop-opacity="0.9"/>
+      <stop offset="0.55" stop-color="#A78BFA" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#F472B6" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="3" result="blur1"/>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.1" result="blur2"/>
+      <feMerge>
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="1" y="1" width="958" height="178" rx="18" fill="url(#bg)" stroke="#2A3445"/>
+  <rect x="1" y="1" width="958" height="178" rx="18" fill="url(#rightGlow)"/>
+
+  <text x="62" y="74"
+        font-family="Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif"
+        font-size="26"
+        font-weight="600"
+        letter-spacing="0.2"
+        fill="#F5F7FB">Leave some scratches.</text>
+
+  <text x="62" y="110"
+        font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif"
+        font-size="19"
+        fill="#AAB6C8">想在这个世界上，留下一些自己的爪痕。</text>
+
+  <g opacity="0.65">
+    <path d="M62 132 H350" stroke="#334155" stroke-width="1"/>
+    <circle cx="364" cy="132" r="2" fill="#475569"/>
+  </g>
+
+  <g filter="url(#softGlow)">
+    <g opacity="0.92">
+      <ellipse cx="780" cy="48" rx="7" ry="11" transform="rotate(-18 780 48)" fill="url(#pawFill)"/>
+      <ellipse cx="805" cy="36" rx="7" ry="11" transform="rotate(-4 805 36)" fill="url(#pawFill)"/>
+      <ellipse cx="832" cy="39" rx="7" ry="11" transform="rotate(10 832 39)" fill="url(#pawFill)"/>
+      <ellipse cx="855" cy="56" rx="7" ry="11" transform="rotate(22 855 56)" fill="url(#pawFill)"/>
+      <path d="M815 64
+               C796 64 782 76 780 93
+               C778 112 792 126 813 128
+               C833 130 851 118 853 101
+               C855 84 843 69 827 66
+               C824 65 820 64 815 64Z" fill="url(#pawFill)"/>
+    </g>
+
+    <path d="M682 132 C699 111, 720 84, 748 46"
+          stroke="url(#scratch1)" stroke-width="3.6" stroke-linecap="round"/>
+    <path d="M723 137 C743 112, 766 83, 797 40"
+          stroke="url(#scratch2)" stroke-width="4" stroke-linecap="round"/>
+    <path d="M766 131 C788 105, 813 79, 846 43"
+          stroke="url(#scratch3)" stroke-width="3.7" stroke-linecap="round"/>
+  </g>
+</svg>
