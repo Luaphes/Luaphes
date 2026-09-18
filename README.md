@@ -1,23 +1,6 @@
 <p align="center">
-  <img src="./assets/luaphes-wordmark.svg" width="62%" alt="LUAPHES" />
+  <img src="./assets/hero-dark.png" width="100%" alt="LUAPHES — Product Manager × AI Builder" />
 </p>
-
-<p align="center"><sub>PRODUCT MANAGER × AI BUILDER</sub></p>
-
-<p align="center"><strong>做了十多年产品，现在终于可以不只写 PRD 了。</strong></p>
-
-<p align="center">
-  在复杂场景里发现体验断点，设计有趣的解法，<br>
-  再用 AI 把它 Build、Ship，并从真实用户和数据里继续迭代。
-</p>
-
-<p align="center"><code>PRODUCT JUDGMENT × AI BUILDING × SHIP & ITERATE</code></p>
-
-<p align="center"><sub>IDEAS → BUILDS → IMPACT</sub></p>
-
-<br>
-
-<img src="./assets/scratch-banner-v7.png" width="100%" alt="Leave some scratches — 想在这个世界上，留下一些自己的爪痕。" />
 
 <br>
 
