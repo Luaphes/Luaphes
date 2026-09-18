@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="./assets/hero-dark.png" width="100%" alt="LUAPHES — Product Manager × AI Builder" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.png">
+    <img src="./assets/hero-light.png" width="100%" alt="LUAPHES — Product Manager × AI Builder">
+  </picture>
 </p>
 
 <br>
