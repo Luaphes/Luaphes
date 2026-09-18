@@ -16,24 +16,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: Convert final WebP heroes to PNG
         run: |
-          python - <<'PY'
-          from PIL import Image
-          for theme in ("dark", "light"):
-              src = f"assets/hero-{theme}.webp"
-              dst = f"assets/hero-{theme}.png"
-              with Image.open(src) as im:
-                  im.save(dst, "PNG", optimize=True)
-          PY
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq imagemagick
+          convert assets/hero-dark.webp assets/hero-dark.png
+          convert assets/hero-light.webp assets/hero-light.png
       - name: Point README back to PNG
         run: |
-          python - <<'PY'
-          from pathlib import Path
-          p = Path("README.md")
-          s = p.read_text()
-          s = s.replace("./assets/hero-dark.webp", "./assets/hero-dark.png")
-          s = s.replace("./assets/hero-light.webp", "./assets/hero-light.png")
-          p.write_text(s)
-          PY
+          sed -i 's#./assets/hero-dark.webp#./assets/hero-dark.png#g' README.md
+          sed -i 's#./assets/hero-light.webp#./assets/hero-light.png#g' README.md
       - name: Commit PNG hero replacement
         run: |
           git config user.name "github-actions[bot]"
