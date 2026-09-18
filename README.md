@@ -1,8 +1,8 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.webp">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.webp">
-    <img src="./assets/hero-light.webp" width="100%" alt="LUAPHES — Product Manager × AI Builder">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.png">
+    <img src="./assets/hero-light.png" width="100%" alt="LUAPHES — Product Manager × AI Builder">
   </picture>
 </p>
 
