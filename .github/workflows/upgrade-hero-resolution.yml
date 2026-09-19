@@ -24,7 +24,7 @@ jobs:
         run: |
           set -e
           for theme in dark light; do
-            magick "assets/hero-$theme.png"               -filter Lanczos               -resize 1200x720!               -unsharp 0x0.5+0.4+0.02               -strip               -define png:compression-level=9               "assets/hero-$theme.tmp.png"
+            convert "assets/hero-$theme.png"               -filter Lanczos               -resize 1200x720!               -unsharp 0x0.5+0.4+0.02               -strip               -define png:compression-level=9               "assets/hero-$theme.tmp.png"
             mv "assets/hero-$theme.tmp.png" "assets/hero-$theme.png"
           done
 
